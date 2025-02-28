@@ -1,55 +1,104 @@
+
+/* =========================star shoes================ */
+
 *{
-    padding: 0;
-    margin: 0;
+    margin: 0 0;
+    padding: 0 0;
 }
+:root{
+    --main-bg-color:#5cacf3;
 
-
-
-.navcontainer{
-
+}
+.logo{
     display: flex;
+}
+
+
+
+.card{
+    width: 400px;
+    height: auto;
     justify-content: center;
-}
-nav{
-    background-color: blue;
-    color: white;
-    height:58vh;
-}
-nav ul li a{
-    text-decoration: none;
+    text-align: center;
    
-    color: aliceblue;
-    list-style: none;
+   
+   
+
+}
+
+nav ul li:hover {
+    color: brown;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    float: right;
+}
+.bbb {
+    width: 7vw;
+    height: 4vh;
+    text-align: center;
+    font-size: 15px;
+    background: #5cacf3;
+    border: solid white 2px;
+    border-radius: 10px 0 10px 0;
+    color:white;
+    
+    transition:0.3s ease-in-out;
+
+
+}
+.logo{
+    margin: 20px 20px;
     
 }
-li{
+nav{
     display: flex;
+    background-color:#0a4c86; 
+    height: auto;
+    width: 110vw;
+    text-align: right;
+    /* justify-content: center; */
+    
+}
+#lu{
     list-style: none;
+    font-size: 1em;
+    display: flex;
+    color: rgb(15, 15, 15);
+    padding: 0px ;
+    align-items: center;
 }
-.list{
-    color: aliceblue;
-    background-color: blueviolet;
+.inp{
+    display: flex;
+    margin-top: 25px ;
 }
-footer{
-    background-color: blue;
-    color: white;
-    height: 12vh;
-}
-.im{
+#abc{
+    padding: 15px 10px;
+    font-size: 1em;
+    border-radius: 5px ;
+    width: 25vw;
+    height: 0px;
    display: flex;
-   justify-content: center;
-    background-color: blueviolet;
-    /* width: 15vw; */
-}
-.list{
-   
-}
-.slider{
-   width: 90vw; 
-   height: 30vh;
-    background-color: aqua;
+    
 }
 
-main{
-    min-height: calc(100vh - 58vh - 12vh);
+
+#an{
+    text-decoration: none;
+    color: rgb(251, 246, 246);
+    padding: 0px 1vw;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+
+
+.men{
+   background-color: aquamarine;
+}
+.foot{
+    text-align: center;
+    background-color:#0a4c86 ;
+    width: 110vw;
+    height: 12vh;
 }
