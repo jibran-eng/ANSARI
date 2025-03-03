@@ -1,5 +1,5 @@
 
-/* =========================star shoes================ */
+/* =========================sylist================ */
 
 *{
     margin: 0 0;
@@ -98,7 +98,10 @@ nav{
 }
 .foot{
     text-align: center;
-    background-color:#0a4c86 ;
+    background-color:#0a0a0a ;
     width: 110vw;
     height: 12vh;
+}
+.copyright {
+    text-align: center;
 }
